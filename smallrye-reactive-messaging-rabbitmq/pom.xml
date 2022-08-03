@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>smallrye-reactive-messaging-rabbitmq</artifactId>
-
+  <version>3.17.0-Syzh</version>
   <name>SmallRye Reactive Messaging : Connector :: RabbitMQ</name>
 
   <properties>
@@ -21,7 +21,12 @@
     <dependency>
       <groupId>io.smallrye.reactive</groupId>
       <artifactId>smallrye-reactive-messaging-provider</artifactId>
-      <version>${project.version}</version>
+      <version>3.17.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.smallrye.reactive</groupId>
+      <artifactId>smallrye-reactive-messaging-api</artifactId>
+      <version>3.17.0</version>
     </dependency>
     <dependency>
       <groupId>io.smallrye.reactive</groupId>
@@ -40,14 +45,14 @@
     <dependency>
       <groupId>io.smallrye.reactive</groupId>
       <artifactId>test-common</artifactId>
-      <version>${project.version}</version>
+      <version>3.17.0</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>io.smallrye.reactive</groupId>
       <artifactId>smallrye-connector-attribute-processor</artifactId>
-      <version>${project.version}</version>
+      <version>3.17.0</version>
       <scope>provided</scope>
     </dependency>
 
